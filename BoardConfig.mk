@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# MiuiCamera
+-include device/xiaomi/miuicamera-sweet/BoardConfig.mk
+
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
