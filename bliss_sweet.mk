@@ -23,6 +23,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Bliss build type
 BLISS_BUILDTYPE := OFFICIAL
+GAPPS_ARCH := arm64
 
 # Device related
 TARGET_SUPPORTS_QUICK_TAP := true
