@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# MiuiCamera
--include device/xiaomi/miuicamera-sweet/BoardConfig.mk
-
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
@@ -45,3 +42,6 @@ VENDOR_SECURITY_PATCH := 2023-11-01
 
 # Inherit from proprietary files
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
+# MiuiCamera
+-include vendor/miuicamera-sweet/BoardConfig.mk
